@@ -22,7 +22,69 @@
         margin-top: 50px;
         width: 100%;
     }
+    .online-games-container,
+    .online-games-text,
+    .online-games-images
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        /* margin-left: 80px; */
+    }
+    .online-games-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         padding-top: 150px;
+         
+    }
+    .play-container ,
+    .play-text
+   
+    {
+        /* height: 100%; */
+        /* width: 100%; */
+        /* padding-top: 600px; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 5px solid red; */
+    }
+    .play-container ,
+    .play-image{
+        /* margin-top: 2000px; */
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .play-image{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .big-img{
+        height: 100%;
+        width: 90%;
+        padding-left: 180px;
+        margin-bottom: 50px;
+        border: 3px solid blue;
+        /* position: relative; */
+    }
+    .small-img{
+        border: 2px solid rebeccapurple;
+        position:relative;
+        height: 50%;
+        width: 40%;
+        bottom: 0px;
+        right: 50px;
+        left: 0px;
+        top: 390px;
 
+    }
 }
 
 
@@ -44,5 +106,49 @@
      margin-top: 50px;
      width: 100%;
  }
+ .online-games-container
+ 
+    /* .online-games-text, */
+   
+    {
+        flex-direction: column;
+        /* margin-left: 80px; */
+        margin-top: 550px;
+        height: fit-content;
+    }
+ .online-games-images{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
 
+ }
+.play-container{
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+    /* padding-top: 500px; */
+}
+.play-image{
+    height: 100%;
+    width: 100%;
+}
+.small-img{
+    background-color: rebeccapurple;
+    width: 20%;
+    height: 30%;
+    position:relative;
+    padding-left: 0;
+    margin-left: 0;
+        bottom: 0px;
+        right:40px;
+        left:50px;
+        top: 390px;
+
+}
 }
