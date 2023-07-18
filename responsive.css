@@ -3,6 +3,7 @@
         flex-direction: column;
         padding: 0px 50px;
         width: 100%;
+        gap: 10px;
     }
     .navbar-right-side,
     /* .navbar-icons, */
@@ -11,11 +12,23 @@
         box-sizing: border-box;
         align-items: center;
         width: auto;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         align-items: center;
         gap: 10px;
     }
+    .banner-container ,
+    .banner-text-container{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+
 }
+
+
+/* tablet device */
+
+
 
 @media screen and (max-width:992px) and (min-width:577px) {
  header ,
@@ -25,4 +38,11 @@
     width: auto;
     gap: 10px;
  }   
+ .banner-container ,
+ .banner-text-container{
+     flex-direction: column;
+     margin-top: 50px;
+     width: 100%;
+ }
+
 }
