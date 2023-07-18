@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.navbar-logo-name{
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content:center;
+    align-items: center;
+}
+.g{
+    color: #ff42a5;
+}
+.navbar-icons{
+    display: flex;
+    width: 250px;
+    height: 2.95rem;
+    font-weight: 200;
+    background-color: rgba(11, 2, 35, 0.119);
+    border-radius: 7px;
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-items: center;
+}
+.fa-brands{
+    font-size: 30px;
+
+}
+.utb{
+    border-style: none;
+    background: transparent;
+}
+.tiktok{
+    border-style: none;
+    background: transparent;
+}
+.navbar-right-side{
+    width: 40%;
+    display: flex;
+    font-weight: 500;
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+header{
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+}
+header button{
+    background: transparent;
+    border-style: none;
+}

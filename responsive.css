@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) and (min-width:0px) {
+    header{
+        flex-direction: column;
+        padding: 0px 50px;
+        width: 100%;
+    }
+    .navbar-right-side,
+    /* .navbar-icons, */
+    .navbar-logo-name{
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        width: auto;
+        padding-left: 10px;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:577px) {
+ header ,
+ .navbar-right-side,
+ .navbar-logo-name{
+    flex-direction: column;
+    width: auto;
+    gap: 10px;
+ }   
+}
