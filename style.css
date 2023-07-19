@@ -242,6 +242,12 @@ ul{
     border: 5px solid rebeccapurple;
    
 }
+.pubg-img{
+    width: 30%;
+    background-color: #42a5ff;
+    height: 20%;
+    border-radius: 25px;
+}
 .online-games-images{
     /* padding: 0 10%; */
 }
