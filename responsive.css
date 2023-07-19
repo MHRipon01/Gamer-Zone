@@ -253,6 +253,7 @@
 
 /* 375 to 425 */
 @media screen and (max-width:425px) and (min-width:376px) {
+
     header{
         flex-direction: column;
         padding: 0px auto;
@@ -278,6 +279,9 @@
         margin-top: 50px;
         width: 100%;
     }
+    /* .pubg-img{
+        width: 90%;
+    } */
     .online-games-container,
     .online-games-text,
     .online-games-images
@@ -286,6 +290,7 @@
         align-items: center;
         justify-content: center;
         height: fit-content;
+        width: fit-content;
         /* margin-left: 80px; */
     }
     .online-games-container{
