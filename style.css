@@ -298,3 +298,71 @@ header button{
     /* right:100px ; */
     left: 10px;
   }
+
+  .category-name{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .category-container{
+    margin-top: 50px;
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    gap: 10px;
+
+  }
+  .category-name:hover{
+    color: rgb(235, 58, 229);
+    border: 2px solid rgb(216, 60, 211);
+    border-radius: 35px;
+    padding:0 7px;
+
+
+  }
+
+footer{
+    height: 50vh;
+    width: 90vw;
+    background-color: #0B0223;
+    margin: 70px;
+}
+
+  .logo{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 35px;
+    gap: 20px;
+  }
+  .logo img{
+    text-align: center;
+    height: 35px;
+    width: 60px;
+  }
+  .footer-text{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    width: 90%;
+    height: auto;
+ padding: 0 25px;
+
+  }
+
+  .footer-category{
+    padding-left: 50px;
+    margin-left: 150px;
+  }
+  .footer-icon{
+    padding: 25px 40px;
+    gap: 500px;
+    text-align: center;
+  }
+  .copyright{
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+  }
