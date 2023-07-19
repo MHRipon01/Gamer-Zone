@@ -1,7 +1,11 @@
 *{
     margin: 0;
     box-sizing: border-box;
-   
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .navbar-logo-name{

@@ -253,7 +253,10 @@
 
 /* 375 to 425 */
 @media screen and (max-width:425px) and (min-width:376px) {
+.banner-container{
 
+    width: 70%;
+}
     header{
         flex-direction: column;
         padding: 0px auto;
